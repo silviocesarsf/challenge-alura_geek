@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@300;400&family=Montserrat:wght@200;300;400&family=Phudu:wght@300;400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700&family=Raleway:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+}
+
+a {
+  color: #2A7AE4;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+}
+
+:root {
+  --blue-color: #2A7AE4;
+  --gray-color: #464646;
+  --white-color: #FFFFFF;
+  --footer-color: #EAF2FD;
+  --login-color: #E5E5E5;
+}

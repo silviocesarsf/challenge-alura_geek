@@ -1,0 +1,116 @@
+footer {
+	min-height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 152px;
+	background: var(--footer-color);
+	position: relative;
+}
+
+.footer-container {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding-bottom: 2rem;
+}
+
+.trademark-footer {
+	height: 10vh;
+	width: 100%;
+	background: white;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.col-logo_footer img {
+	position: relative;
+}
+
+.col-footer li {
+	margin: 1.4rem 0;
+}
+
+.form-contact {
+	font-weight: bold;
+	color: var(--gray-color);
+}
+
+.form-contact :nth-child(n) {
+	margin: 0.2rem 0;
+}
+
+.inputs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.inputs label {
+    text-align: left;
+    width: 100%;
+}
+
+.name-input input,
+.message-input textarea {
+	width: 560px;
+	height: 56px;
+	padding: 1rem;
+	box-shadow: 1px 1px 2px #c8c8c8;
+}
+
+.inputs input,
+textarea::placeholder {
+	font-family: "Raleway", sans-serif;
+}
+
+.message-input textarea {
+	height: 82px;
+}
+
+.form-contact button {
+	position: relative;
+	right: 37%;
+}
+
+@media screen and (max-width: 768px) {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	footer {
+		padding: 0;
+	}
+
+	.footer-container {
+		padding-top: 30px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.name-input input,
+	.message-input textarea {
+        width: 300px;
+	}
+
+    .form-contact button {
+        position: relative;
+        right: 25%;
+    }
+
+    .inputs {
+        padding: 0rem 1rem 4rem 1rem;
+    }
+}

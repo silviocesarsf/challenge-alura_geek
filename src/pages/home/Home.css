@@ -1,0 +1,85 @@
+.wrapper-home {
+	min-height: 100vh;
+	width: 100%;
+	padding-bottom: 2rem;
+}
+
+.banner-home {
+	background-image: url("https://trello.com/1/cards/628539a3e2fd8a02a9a72c72/attachments/628539a3e2fd8a02a9a72ca4/download/banner-image.png");
+	min-height: 350px;
+	min-width: 100%;
+	position: relative;
+}
+
+.text-banner_home {
+	position: absolute;
+	bottom: 0%;
+	padding: 1rem 152px;
+	color: white;
+}
+
+.text-banner_home h1 {
+	font-size: 52px;
+	font-weight: 700;
+}
+
+.text-banner_home p {
+	font-weight: 700;
+	font-size: 22px;
+}
+
+.button-view_more {
+	width: 100%;
+	text-align: center;
+}
+
+.text-banner_home :nth-child(n) {
+	margin: 1rem 0;
+}
+
+.rows-products {
+	padding: 3rem 152px;
+}
+
+@media screen and (max-width: 768px) {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	body,
+	html {
+		max-height: 100vh !important;
+		max-width: 100% !important;
+		overflow-x: hidden;
+	}
+
+	section {
+		max-height: 100% !important;
+		overflow-x: hidden;
+	}
+
+	.banner-home {
+		background-position: center;
+		background-size: cover;
+	}
+
+	.text-banner_home {
+		padding: 0;
+		left: 5%;
+		bottom: 5%;
+	}
+
+	.text-banner_home h1 {
+		font-size: 1.4em;
+	}
+
+	.text-banner_home p {
+		font-size: 0.9em;
+		font-weight: 400;
+	}
+
+	.text-banner_home :nth-child(n) {
+		margin: 0.5rem 0;
+	}
+}

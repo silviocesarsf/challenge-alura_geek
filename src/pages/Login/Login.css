@@ -1,0 +1,29 @@
+.login-page {
+    width: 100%;
+    background: var(--login-color);
+}
+
+.login-page_container {
+    padding: 10rem 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+}
+
+.login-page_container :nth-child(n) {
+    margin: .4rem 0;
+}
+
+.inputs-login button {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 768px){
+    .email-input_login input, .password-input_login input {
+        width: 90vw;
+    }
+}

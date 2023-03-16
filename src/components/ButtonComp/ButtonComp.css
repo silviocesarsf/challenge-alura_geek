@@ -1,0 +1,15 @@
+.button-comp {
+    background: transparent;
+    color: var(--blue-color);
+    border: 1px solid var(--blue-color);
+    width: 182px;
+    height: 51px;
+    font-size: 16px;
+    transition: .5s;
+}
+
+.button-comp:hover {
+    background: var(--blue-color);
+    color: white;
+    cursor: pointer;
+}

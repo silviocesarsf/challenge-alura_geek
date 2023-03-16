@@ -1,0 +1,15 @@
+.input-comp input {
+    background: #ffff;
+    width: 423px;
+    height: 64px;
+    border-radius: 4px;
+    box-shadow: 1px 3px 1px #C8C8C8;
+    color: #A2A2A2;
+    padding: 1rem;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.input-comp input::placeholder {
+    color: #A2A2A2;
+}
